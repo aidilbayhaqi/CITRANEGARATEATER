@@ -49,7 +49,7 @@ export const Register = () => {
   };
 
   return (
-    <div>
+    <div id="/CITTERV2/Register/"> 
     <section className="register">
       <Container className="form-register">
         <Row>

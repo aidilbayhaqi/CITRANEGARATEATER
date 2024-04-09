@@ -30,9 +30,9 @@ export const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/CITTERV2/">Home</Nav.Link>
-              <Nav.Link href="/CITTERV2/Galeri">Galeri</Nav.Link>
-              <Nav.Link href="/CITTERV2/karya">Karya</Nav.Link>
-              <Nav.Link href="/CITTERV2/Struktural">Struktural</Nav.Link>
+              <Nav.Link href="/CITTERV2/Galeri/">Galeri</Nav.Link>
+              <Nav.Link href="/CITTERV2/karya/">Karya</Nav.Link>
+              <Nav.Link href="/CITTERV2/Struktural/">Struktural</Nav.Link>
             </Nav>
             <span className="navbar-text">
               {/* <div className="social-icon">
