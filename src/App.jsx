@@ -16,11 +16,11 @@ function App() {
     <div>
       <NavBar></NavBar>
       <Routes>
-        <Route path="/" Component={Home}></Route>
-        <Route path="/galeri" Component={Galeri}></Route>
-        <Route path="/karya" Component={Karya}></Route>
-        <Route path="/struktural" Component={Struktural}></Route>
-        <Route path="/register" Component={Register}></Route>
+        <Route path="/CITTERV2/" Component={Home}></Route>
+        <Route path="/CITTERV2/galeri" Component={Galeri}></Route>
+        <Route path="CITTERV2/karya" Component={Karya}></Route>
+        <Route path="CITTERV2/struktural" Component={Struktural}></Route>
+        <Route path="CITTERV2/register" Component={Register}></Route>
       </Routes>
       <Footer></Footer>
     </div>
