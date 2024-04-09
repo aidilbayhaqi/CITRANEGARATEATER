@@ -23,13 +23,16 @@ export const NavBar = () => {
           <Navbar.Brand>
             <img src={logo} alt="" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-toggle-icon"/>
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            className="navbar-toggle-icon"
+          />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="Galeri">Galeri</Nav.Link>
-              <Nav.Link href="karya">Karya</Nav.Link>
-              <Nav.Link href="Struktural">Struktural</Nav.Link>
+              <Nav.Link href="/CITTERV2/">Home</Nav.Link>
+              <Nav.Link href="/CITTERV2/Galeri">Galeri</Nav.Link>
+              <Nav.Link href="/CITTERV2/karya">Karya</Nav.Link>
+              <Nav.Link href="/CITTERV2/Struktural">Struktural</Nav.Link>
             </Nav>
             <span className="navbar-text">
               {/* <div className="social-icon">
@@ -43,7 +46,10 @@ export const NavBar = () => {
                   <img src={}></img>
                 </a>
               </div> */}
-              <button className="tombol" onClick={() => (window.location.href='Register')}>
+              <button
+                className="tombol"
+                onClick={() => (window.location.href = "Register")}
+              >
                 Ayo Bergabung
               </button>
             </span>

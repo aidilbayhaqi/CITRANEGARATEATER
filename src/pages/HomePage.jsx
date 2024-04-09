@@ -31,7 +31,7 @@ export const Home = () => {
   return (
     <>
       {/* banner */}
-      <div className="banner" id="home">
+      <div className="banner" id="/CITTERV2/">
         <Container>
           <Row className="align-item-center">
             <Col xs={12} md={6} xl={7}>

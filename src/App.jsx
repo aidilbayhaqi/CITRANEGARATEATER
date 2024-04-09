@@ -17,10 +17,10 @@ function App() {
       <NavBar></NavBar>
       <Routes>
         <Route path="/CITTERV2/" Component={Home}></Route>
-        <Route path="/CITTERV2/galeri" Component={Galeri}></Route>
-        <Route path="CITTERV2/karya" Component={Karya}></Route>
-        <Route path="CITTERV2/struktural" Component={Struktural}></Route>
-        <Route path="CITTERV2/register" Component={Register}></Route>
+        <Route path="/CITTERV2/Galeri" Component={Galeri}></Route>
+        <Route path="CITTERV2/Karya" Component={Karya}></Route>
+        <Route path="CITTERV2/Struktural" Component={Struktural}></Route>
+        <Route path="CITTERV2/Register" Component={Register}></Route>
       </Routes>
       <Footer></Footer>
     </div>
