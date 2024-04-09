@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Cabin
+Author: Impallari Type,Rodrigo Fuenzalida
+Url: https://fonts.google.com/specimen/Cabin
+
+Font: Birthstone
+Author: Robert Leuschke
+Url: https://fonts.google.com/specimen/Birthstone
