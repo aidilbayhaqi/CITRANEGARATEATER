@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://byhaqiaidil.github.io/CITTERV2",
+  "homepage": "http://byhaqiaidil.github.io/",
   "scripts": {
     "start": "vite",
     "build": "vite build",
