@@ -8,6 +8,7 @@ export const Struktural = () => {
   AOS.init()
   return (
     <>
+    <div id="/CITTERV2/Struktural">
       <Card className="bg-dark text-white struktur-card">
         <Card.Img src={citter} alt="Card image" />
         <Card.ImgOverlay>
@@ -174,6 +175,7 @@ export const Struktural = () => {
           </Row>
         </Container>
       </section>
+      </div>
     </>
   );
   

@@ -49,6 +49,7 @@ export const Register = () => {
   };
 
   return (
+    <div>
     <section className="register">
       <Container className="form-register">
         <Row>
@@ -156,5 +157,6 @@ export const Register = () => {
         </Row>
       </Container>
     </section>
+    </div>
   );
 };

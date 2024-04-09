@@ -25,6 +25,7 @@ export const Galeri = () => {
   AOS.init()
   return (
     <>
+    <div id="/CITTERV2/Galeri">
       <Carousel className="galeri" fade>
         <Carousel.Item>
           <img src={citter} alt="" />
@@ -826,6 +827,7 @@ export const Galeri = () => {
           </Tab.Content>
         </Tab.Container>
       </section>
+      </div>
     </>
   );
 };
