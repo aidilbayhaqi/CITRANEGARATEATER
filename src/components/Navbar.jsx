@@ -30,22 +30,11 @@ export const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/CITTERV2/">Home</Nav.Link>
-              <Nav.Link href="/galeri">Galeri</Nav.Link>
-              <Nav.Link href="/karya">Karya</Nav.Link>
-              <Nav.Link href="/struktural">Struktural</Nav.Link>
+              <Nav.Link href="/CITTERV2/Galeri">Galeri</Nav.Link>
+              <Nav.Link href="/CITTERV2/karya">Karya</Nav.Link>
+              <Nav.Link href="/CITTERV2/Struktural">Struktural</Nav.Link>
             </Nav>
             <span className="navbar-text">
-              {/* <div className="social-icon">
-                <a href="">
-                  <img src={}></img>
-                </a>
-                <a href="">
-                  <img src={}></img>
-                </a>
-                <a href="">
-                  <img src={}></img>
-                </a>
-              </div> */}
               <button
                 className="tombol"
                 onClick={() => (window.location.href = "Register")}

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Home } from './pages/HomePage';
 import { Galeri } from "./pages/Galeri";
 import { Karya } from "./pages/Karya";
@@ -13,17 +13,15 @@ import "aos/dist/aos.css";
 
 function App() {
   return (
-      <Router>
-      <NavBar></NavBar>
-      <Routes>
-        <Route path="/CITTERV2/" Component={Home}></Route>
-        <Route path="/galeri" Component={Galeri}></Route>
-        <Route path="/karya" Component={Karya}></Route>
-        <Route path="/struktural" Component={Struktural}></Route>
-        <Route path="/register" Component={Register}></Route>
-      </Routes>
-      <Footer></Footer>
-      </Router>
+ 
+      <><NavBar></NavBar><Routes>
+      <Route path="/CITTERV2/" Component={Home}></Route>
+      <Route path="/CITTERV2/Galeri/" Component={Galeri}></Route>
+      <Route path="/CITTERV2/Karya/" Component={Karya}></Route>
+      <Route path="/CITTERV2/Struktural/" Component={Struktural}></Route>
+      <Route path="/CITTERV2/Register/" Component={Register}></Route>
+    </Routes><Footer></Footer></>
+
   );
 }
 
