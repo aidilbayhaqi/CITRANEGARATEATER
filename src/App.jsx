@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from './pages/HomePage';
 import { Galeri } from "./pages/Galeri";
 import { Karya } from "./pages/Karya";
@@ -13,7 +13,7 @@ import "aos/dist/aos.css";
 
 function App() {
   return (
-    <div>
+      <Router>
       <NavBar></NavBar>
       <Routes>
         <Route path="/CITTERV2/" Component={Home}></Route>
@@ -23,7 +23,7 @@ function App() {
         <Route path="/CITTERV2/Register" Component={Register}></Route>
       </Routes>
       <Footer></Footer>
-    </div>
+      </Router>
   );
 }
 
