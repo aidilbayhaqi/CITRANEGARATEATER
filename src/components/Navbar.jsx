@@ -30,15 +30,15 @@ export const NavBar = () => {
           />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <NavLink href="/CITTERV2/">Home</NavLink>
-              <NavLink href="/CITTERV2/Galeri">Galeri</NavLink>
-              <NavLink href="/CITTERV2/karya">Karya</NavLink>
-              <NavLink href="/CITTERV2/Struktural">Struktural</NavLink>
+              <NavLink to="/CITTERV2/">Home</NavLink>
+              <NavLink to="/CITTERV2/Galeri">Galeri</NavLink>
+              <NavLink to="/CITTERV2/karya">Karya</NavLink>
+              <NavLink to="/CITTERV2/Struktural">Struktural</NavLink>
             </Nav>
             <span className="navbar-text">
               <button
                 className="tombol"
-                onClick={() => (window.location.href = "Register")}
+                onClick={() => (window.location.to = "Register")}
               >
                 Ayo Bergabung
               </button>
