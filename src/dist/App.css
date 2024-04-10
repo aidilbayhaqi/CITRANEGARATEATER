@@ -402,9 +402,7 @@ margin-bottom: 24px;
   align-items: center;
   position: relative;
   text-align: center;
-  background: linear-gradient(90.21deg,
-    rgb(62, 62, 185) -5.91%,
-    rgba(170, 54, 124, 1)111.58%);
+ background: linear-gradient(90.21deg, rgba(170, 54, 124, 1) -5.91%, rgba(74, 74, 189, 1) 111.58%);
  overflow: hidden;
     padding: 30px 20px 30px 20px;
 }
