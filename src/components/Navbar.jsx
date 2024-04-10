@@ -1,6 +1,7 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import logo from '../assets/img/logo.png'
+import {NavLink}from 'react-router-dom'
 
 export const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -29,10 +30,10 @@ export const NavBar = () => {
           />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/CITTERV2/">Home</Nav.Link>
-              <Nav.Link href="/CITTERV2/Galeri">Galeri</Nav.Link>
-              <Nav.Link href="/CITTERV2/karya">Karya</Nav.Link>
-              <Nav.Link href="/CITTERV2/Struktural">Struktural</Nav.Link>
+              <NavLink href="/CITTERV2/">Home</NavLink>
+              <NavLink href="/CITTERV2/Galeri">Galeri</NavLink>
+              <NavLink href="/CITTERV2/karya">Karya</NavLink>
+              <NavLink href="/CITTERV2/Struktural">Struktural</NavLink>
             </Nav>
             <span className="navbar-text">
               <button
