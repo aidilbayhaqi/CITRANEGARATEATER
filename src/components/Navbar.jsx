@@ -35,14 +35,11 @@ export const NavBar = () => {
               <NavLink to="/CITTERV2/karya">Karya</NavLink>
               <NavLink to="/CITTERV2/Struktural">Struktural</NavLink>
             </Nav>
-            <span className="navbar-text">
-              <button
-                className="tombol"
-                onClick={() => (window.location.to = "Register")}
-              >
-                Ayo Bergabung
-              </button>
-            </span>
+            
+              <NavLink to="/CITTERV2/Register" className="tombol">Ayo Bergabung</NavLink>
+
+
+          
           </Navbar.Collapse>
         </Container>
       </Navbar>

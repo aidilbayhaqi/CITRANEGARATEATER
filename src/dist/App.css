@@ -110,19 +110,20 @@ nav.navbar.scrolled {
 .navbar .tombol{
   font-weight: 700;
   border: 1px solid #fff;
-  padding: 15px 30px;
+ padding: 20px 15px;
   background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 74, 189, 0.5) 111.58%);
   color: #fff;
   position: relative;
   font-size: 18px;
   transition: 0.3s ease-in-out ;
   letter-spacing: 0.8px;
+  text-decoration: none;
+
 }
 nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
   outline: none;
   box-shadow: none;
-  display: flex;
 }
 
 nav.navbar .navbar-toggler-icon {
@@ -165,7 +166,7 @@ nav.navbar .navbar-toggler-icon:after {
 .banner{
   margin-top: 0;
   padding: 250px 0 300px 0;
-  background-image: url(../assets/img/bgImg.png);
+  background-image: url(../assets/img/bgImg.png );
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -283,8 +284,8 @@ nav.navbar .navbar-toggler-icon:after {
   position: absolute;
   width: 25%;
   z-index: 4;
-  bottom: 70%;
-  right: 85%;
+  bottom: 80%;
+  right:80%;
 }
 
 .about p{

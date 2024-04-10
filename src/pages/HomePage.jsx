@@ -32,7 +32,7 @@ export const Home = () => {
       <div className="banner" id="/CITTERV2/">
         <Container>
           <Row className="align-item-center">
-            <Col xs={12} md={6} xl={7}>
+            <Col xs={12} md={6} xl={6}>
               <div>
                 <span
                   className="tag"
@@ -60,7 +60,7 @@ export const Home = () => {
                 </button>
               </div>
             </Col>
-            <Col xs={12} md={6} xl={5}>
+            <Col xs={12} md={6} xl={6}>
               <img
                 src={IconHome}
                 alt=""
