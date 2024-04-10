@@ -389,14 +389,7 @@ margin-bottom: 24px;
   top: 50%;
   overflow: hidden;
 }
-.tropy{
-  width: 10%;
-  z-index: 3;
-  right: 15%;
-  position: absolute;
-  top: 53%;
-  overflow: hidden;
-}
+
 
 /* kegiatan */
 .kegiatan{
@@ -532,12 +525,6 @@ z-index: -4;
   right: 0;
   width: 30%;
   top: 70%;
-}
-.aktiv{
-  z-index: 3;
-  width: 20%;
-  top: 56%;
-  position: absolute;
 }
 
 /* funfact */

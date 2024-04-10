@@ -11,17 +11,20 @@ import "react-bootstrap";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+
 function App() {
   return (
- 
-      <><NavBar></NavBar><Routes>
-      <Route path="/CITTERV2/" Component={Home}></Route>
-      <Route path="/CITTERV2/Galeri/" Component={Galeri}></Route>
-      <Route path="/CITTERV2/Karya/" Component={Karya}></Route>
-      <Route path="/CITTERV2/Struktural/" Component={Struktural}></Route>
-      <Route path="/CITTERV2/Register/" Component={Register}></Route>
-    </Routes><Footer></Footer></>
-
+    <>
+      <NavBar></NavBar>
+      <Routes>
+        <Route path="/CITTERV2/" element={<Home></Home>}></Route>
+        <Route path="/CITTERV2/Galeri/" element={<Galeri></Galeri>}></Route>
+        <Route path="/CITTERV2/Karya/" element={<Karya></Karya>}></Route>
+        <Route path="/CITTERV2/Struktural/" element={<Struktural></Struktural>}></Route>
+        <Route path="/CITTERV2/Register/" element={<Register></Register>}></Route>
+      </Routes>
+      <Footer></Footer>
+    </>
   );
 }
 

@@ -14,8 +14,6 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import colorSharp from "../assets/img/color-sharp.png";
 import "react-bootstrap";
 import { useState, useEffect } from "react";
-import  tropy from "../assets/img/tropy.png";
-import  aktiv from "../assets/img/aktivitas.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -171,13 +169,6 @@ export const Home = () => {
           </Carousel>
         </Container>
       </section>
-      <img
-        src={tropy}
-        alt=""
-        className="tropy"
-        data-aos="zoom-out-left"
-        data-aos-duration="1500"
-      />
       <img src={colorSharp} alt="" className="img-right" />
 
       {/* kegiatan */}
@@ -456,13 +447,7 @@ export const Home = () => {
         </Container>
       </section>
       <img src={colorSharp2} alt="" className="img-left1" />
-      <img
-        src={aktiv}
-        alt=""
-        className="aktiv"
-        data-aos="zoom-out-right"
-        data-aos-duration="1000"
-      />
+    
 
       {/* Fun Fact */}
       <section className="funfact" data-aos="zoom-in" data-aos-duration="1000">
