@@ -29,7 +29,7 @@ export const NavBar = () => {
             className="navbar-toggle-icon"
           />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="me-auto navlink">
               <NavLink to="/CITTERV2/">Home</NavLink>
               <NavLink to="/CITTERV2/Galeri">Galeri</NavLink>
               <NavLink to="/CITTERV2/karya">Karya</NavLink>

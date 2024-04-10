@@ -50,7 +50,9 @@ export const Home = () => {
                   doloribus assumenda veritatis exercitationem?
                 </p>
                 <button
-                  onClick={() => (window.location.href = "https://instagram.com/CITTER_")}
+                  onClick={() =>
+                    (window.location.href = "https://instagram.com/CITTER_")
+                  }
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
@@ -76,7 +78,6 @@ export const Home = () => {
           <Row className="justify-content-center">
             <Col>
               <div className="about-box">
-                <img src={IconHome2} alt="" className="mask-img" />
                 <h2>Tentang Kami</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -100,6 +101,7 @@ export const Home = () => {
               </div>
             </Col>
           </Row>
+          <img src={IconHome2} alt="" className="mask-img" />
           <img src={colorSharp2} alt="" className="img-left" />
         </Container>
       </section>
@@ -447,7 +449,6 @@ export const Home = () => {
         </Container>
       </section>
       <img src={colorSharp2} alt="" className="img-left1" />
-    
 
       {/* Fun Fact */}
       <section className="funfact" data-aos="zoom-in" data-aos-duration="1000">
