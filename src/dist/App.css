@@ -70,22 +70,21 @@ select:focus {
 }
 /* navbar */
 nav.navbar{
-  padding: 20px 0 20px 0;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 9999;
-  transition: 0.32s ease-in-out;
-  overflow: hidden;
+  padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition: 0.32s ease-in-out;
 }
 nav.navbar.scrolled {
-  padding-bottom: 10px ;
+padding-bottom: -20px;
   background-color: #121212;
   opacity: 0.8;
-
 }
+
 .navbar .navlink a{
-  margin: 10px;
+  margin: 20px;
   font-weight: 700;
   color: #fff !important;
   letter-spacing: 1px;
@@ -93,7 +92,7 @@ nav.navbar.scrolled {
   opacity: 0.75;
   font-size: 20px;
   text-decoration: none;
-  padding: 10px;
+  padding: 20px;
 }
 
 .navbar .navlink a:hover, 
@@ -107,7 +106,7 @@ nav.navbar.scrolled {
   letter-spacing: 0.8px;
   color: rgba(255, 255, 255, 0.5);
 }
-.navbar .tombol{
+.tombol{
   font-weight: 700;
   border: 1px solid #fff;
  padding: 20px 15px;
@@ -147,6 +146,7 @@ nav.navbar .navbar-toggler-icon::before {
   position: absolute;
   background-color: #fff;
   content: "";
+  right: 0;
   top: 0;
   left: 0;
   z-index: 3;
@@ -1048,7 +1048,28 @@ font-style: italic;
 }
 
 @media (max-width:425px) {
-      
+  nav.navbar{
+    overflow: hidden;
+    
+  }
+  nav.navbar.scrolled {
+      padding-bottom: 50px;
+      background-color: #121212;
+      opacity: 0.8;
+      overflow: hidden;
+    }
+        .navbar .navlink a {
+          margin: 20px;
+          font-weight: 700;
+          color: #fff !important;
+          letter-spacing: 1px;
+          line-height: 1px;
+          opacity: 0.75;
+          font-size: 20px;
+          text-decoration: none;
+          padding: 10px 0 20px 0;
+          overflow-x: hidden;
+        }
   .banner {
       margin-top: 0;
       padding: 250px 0 300px 0;
@@ -1056,8 +1077,10 @@ font-style: italic;
       background-position: top center;
       background-size: cover;
       background-repeat: no-repeat;
+      display: flex;
       position: relative;
       overflow: hidden;
+      
     }
   .banner img {
     margin-top: 30px;

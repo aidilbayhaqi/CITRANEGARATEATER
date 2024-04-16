@@ -18,16 +18,14 @@ export const NavBar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
   return (
-    <div>
-      <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+      <Navbar expand="lg" className={scrolled ? "scrolled" : ''}>
         <Container>
           <Navbar.Brand>
             <img src={logo} alt="" />
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
-            className="navbar-toggle-icon"
-          />
+            className="navbar-toggle-icon"/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto navlink">
               <NavLink to="/CITTERV2/">Home</NavLink>
@@ -35,14 +33,9 @@ export const NavBar = () => {
               <NavLink to="/CITTERV2/karya">Karya</NavLink>
               <NavLink to="/CITTERV2/Struktural">Struktural</NavLink>
             </Nav>
-            
               <NavLink to="/CITTERV2/Register" className="tombol">Ayo Bergabung</NavLink>
-
-
-          
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </div>
   );
 };
