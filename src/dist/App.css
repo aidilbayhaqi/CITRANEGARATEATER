@@ -93,6 +93,7 @@ padding-bottom: -20px;
   font-size: 20px;
   text-decoration: none;
   padding: 20px;
+  
 }
 
 .navbar .navlink a:hover, 
@@ -171,7 +172,7 @@ nav.navbar .navbar-toggler-icon:after {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .banner .tag {
@@ -291,7 +292,9 @@ nav.navbar .navbar-toggler-icon:after {
 .about p{
   font-weight: 500;
   font-size: 20px;
+  text-align: justify;
 }
+
 
 .img-left{
   z-index: -3;

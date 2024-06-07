@@ -79,10 +79,7 @@ export const Home = () => {
             <Col>
               <div className="about-box">
                 <h2>Tentang Kami</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nostrum, praesentium.
-                </p>
+                  <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, recusandae consectetur veniam est aliquid rem.</h3>
                 <Row className="justify-content-center content">
                   <Col xs lg="12">
                     <p>
