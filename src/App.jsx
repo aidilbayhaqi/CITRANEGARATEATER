@@ -16,7 +16,7 @@ import "aos/dist/aos.css";
 function App() {
   return (
    
-  
+  <div>
       <NavBar></NavBar>
       <Routes>
         <Route path="/CITTERV2/" element={<Home></Home>}></Route>
@@ -26,7 +26,7 @@ function App() {
         <Route path="/CITTERV2/Register/" element={<Register></Register>}></Route>
       </Routes>
       <Footer></Footer>
-
+</div>
 
   );
 }
