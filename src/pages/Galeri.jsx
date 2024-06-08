@@ -25,7 +25,7 @@ export const Galeri = () => {
   AOS.init()
   return (
     <>
-      <div path="/CITRANEGARATEATER/Galeri/" >
+      <div path="/Galeri" >
         <Carousel className="galeri" fade>
           <Carousel.Item>
             <img src={citter} alt="" />

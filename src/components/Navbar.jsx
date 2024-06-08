@@ -28,12 +28,12 @@ export const NavBar = () => {
             className="navbar-toggle-icon"/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto navlink">
-              <NavLink to="/CITRANEGARATEATER/">Home</NavLink>
-              <NavLink to="/CITRANEGARATEATER/Galeri">Galeri</NavLink>
-              <NavLink to="/CITRANEGARATEATER/karya">Karya</NavLink>
-              <NavLink to="/CITRANEGARATEATER/Struktural">Struktural</NavLink>
+              <NavLink to="/">Home</NavLink>
+              <NavLink to="/Galeri">Galeri</NavLink>
+              <NavLink to="/karya">Karya</NavLink>
+              <NavLink to="/Struktural">Struktural</NavLink>
             </Nav>
-              <NavLink to="/CITRANEGARATEATER/Register" className="tombol">Ayo Bergabung</NavLink>
+              <NavLink to="/Register" className="tombol">Ayo Bergabung</NavLink>
           </Navbar.Collapse>
         </Container>
       </Navbar>

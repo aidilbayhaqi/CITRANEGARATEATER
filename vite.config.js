@@ -3,5 +3,13 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/CITRANEGARATEATER/", // sesuaikan dengan nama repository Anda
+  base:'/',
+  build: {
+    outDir: "dist", // Direktori output build
+  },
+  resolve: {
+    alias: {
+      "@": "/src", // Alias untuk mempermudah import
+    },
+  },
 });
