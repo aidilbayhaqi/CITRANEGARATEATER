@@ -19,11 +19,11 @@ function App() {
   <div>
       <NavBar></NavBar>
       <Routes>
-        <Route path="/CITTERV2/" element={<Home></Home>}></Route>
-        <Route path="/CITTERV2/Galeri/" element={<Galeri></Galeri>}></Route>
-        <Route path="/CITTERV2/Karya/" element={<Karya></Karya>}></Route>
-        <Route path="/CITTERV2/Struktural/" element={<Struktural></Struktural>}></Route>
-        <Route path="/CITTERV2/Register/" element={<Register></Register>}></Route>
+        <Route path="/CITRANEGARATEATER/" element={<Home></Home>}></Route>
+        <Route path="/CITRANEGARATEATER/Galeri/" element={<Galeri></Galeri>}></Route>
+        <Route path="/CITRANEGARATEATER/Karya/" element={<Karya></Karya>}></Route>
+        <Route path="/CITRANEGARATEATER/Struktural/" element={<Struktural></Struktural>}></Route>
+        <Route path="/CITRANEGARATEATER/Register/" element={<Register></Register>}></Route>
       </Routes>
       <Footer></Footer>
 </div>
