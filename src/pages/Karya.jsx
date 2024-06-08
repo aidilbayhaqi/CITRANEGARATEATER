@@ -8,7 +8,7 @@ export const Karya = () => {
   AOS.init()
   return (
     <>
-    <div>
+    <div id='/CITRANEGARATEATER/karya'>
       <section>
         <Carousel className="karya-slide" fade>
           <Carousel.Item>

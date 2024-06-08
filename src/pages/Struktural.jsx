@@ -8,7 +8,7 @@ export const Struktural = () => {
   AOS.init()
   return (
     <>
-    <div>
+    <div id="/CITRANEAGRATEATER/struktural">
       <Card className="bg-dark text-white struktur-card">
         <Card.Img src={citter} alt="Card image" />
         <Card.ImgOverlay>
